@@ -1,8 +1,28 @@
-h1 {
-    color: purple;
-    background-color: yellow;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-color: #ff8a80;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.heading {
-    background-color: turquoise;
+#page {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #b3e5fc;
+    text-align: center;
+    background-color: rgba(3, 64, 68, 0.8);
+}
+
+.images img {
+    height: 150px;
+    padding: 20px;
+    border: 2px solid white;
 }
