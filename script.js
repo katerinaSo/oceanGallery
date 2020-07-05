@@ -1,2 +1,5 @@
-let test = document.getElementById("h")
-test.onclick = () => { test.className = "heading" }
+let test = document.getElementById("page")
+test.onclick = () =>
+    !(test.className === "redBg") ?
+        test.className = "redBg" :
+        test.className = "org"
