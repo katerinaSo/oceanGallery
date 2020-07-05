@@ -26,3 +26,11 @@ h1 {
     padding: 20px;
     border: 2px solid white;
 }
+
+.redBg {
+    background-color: tomato;
+}
+
+.org {
+    background-color: peru;
+}
